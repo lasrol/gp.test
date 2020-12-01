@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brreg", "Brreg\Brreg.csproj", "{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brreg.Http", "Brreg.Http\Brreg.Http.csproj", "{A3BAA581-0EC1-4FF2-97B8-F05D884C987F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95FADCA7-BD86-4A33-BE1F-82BF5D9050C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{257E50A1-E40E-442D-8459-605CFA6D612E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BAA581-0EC1-4FF2-97B8-F05D884C987F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BAA581-0EC1-4FF2-97B8-F05D884C987F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BAA581-0EC1-4FF2-97B8-F05D884C987F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BAA581-0EC1-4FF2-97B8-F05D884C987F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38F62E5B-9F72-4B9A-AD7A-3922ECA156B8} = {95FADCA7-BD86-4A33-BE1F-82BF5D9050C9}
+		{A3BAA581-0EC1-4FF2-97B8-F05D884C987F} = {95FADCA7-BD86-4A33-BE1F-82BF5D9050C9}
+	EndGlobalSection
+EndGlobal
