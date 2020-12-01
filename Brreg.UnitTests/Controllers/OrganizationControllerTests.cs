@@ -79,17 +79,17 @@ namespace Brreg.UnitTests.Controllers
             Assert.IsType<OkObjectResult>(result);
         }
         
-        // [Theory]
-        // [InlineData("abc")]
-        // [InlineData("9193003888")]
-        // [InlineData("91930038")]
-        // [InlineData("abc123456")]
-        // [InlineData("abcdefghi")]
-        // public async Task When_input_is_invalid_Should_return_BadRequest(string orgNumber)
-        // {
-        //     var sut = _mocker.CreateInstance<OrganizationController>();
-        //     var result = await sut.Index(orgNumber);
-        //     Assert.IsType<BadRequestResult>(result);
-        // }
+        [Theory]
+        [InlineData("abc")]
+        [InlineData("9193003888")]
+        [InlineData("91930038")]
+        [InlineData("abc123456")]
+        [InlineData("abcdefghi")]
+        public async Task When_input_is_invalid_Should_return_BadRequest(string orgNumber)
+        {
+            var sut = _mocker.CreateInstance<OrganizationController>();
+            var result = await sut.Index(orgNumber);
+            Assert.IsType<BadRequestResult>(result);
+        }
     }
 }
