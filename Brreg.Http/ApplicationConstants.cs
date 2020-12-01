@@ -1,4 +1,4 @@
-﻿namespace Brreg.Http_
+﻿namespace Brreg.Http
 {
     public static class ApplicationConstants
     {

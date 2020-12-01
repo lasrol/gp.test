@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Brreg.Http_.Models;
+using Brreg.Http.Models;
 
-namespace Brreg.Http_.Abstractions
+namespace Brreg.Http.Abstractions
 {
     public interface IBrregHttpClient
     {

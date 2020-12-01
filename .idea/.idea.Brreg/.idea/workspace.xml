@@ -4,22 +4,30 @@
     <projectFile>Brreg/Brreg.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb873c4-d9f9-4c99-9ef3-d0279f35efea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg.Http/ApplicationConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Brreg.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Controllers/OrgController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Controllers/OrganizationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brreg/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brreg.UnitTests/Controllers/OrganizationControllerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg.Http/Abstractions/IBrregHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg.Http/Abstractions/IBrregHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg.Http/ApplicationConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg.Http/ApplicationConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg.Http/Brreg.Http.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg.Http/Brreg.Http.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg.Http/Models/OrganizationModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg.Http/Models/OrganizationModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg/Brreg.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg/Brreg.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brreg/Controllers/OrganizationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Brreg/Controllers/OrganizationController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +44,13 @@
         <option value="$PROJECT_DIR$/Brreg/Program.cs" />
         <option value="$PROJECT_DIR$/Brreg/Startup.cs" />
         <option value="$PROJECT_DIR$/Brreg.Http/Class1.cs" />
-        <option value="$PROJECT_DIR$/Brreg/Controllers/OrganizationController.cs" />
         <option value="$PROJECT_DIR$/Brreg/Controllers/OrgController.cs" />
+        <option value="$PROJECT_DIR$/Brreg.UnitTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Brreg/Controllers/OrganizationController.cs" />
+        <option value="$PROJECT_DIR$/Brreg.Http/Models/OrganizationModel.cs" />
+        <option value="$PROJECT_DIR$/Brreg.Http/Abstractions/IBrregHttpClient.cs" />
         <option value="$PROJECT_DIR$/Brreg.Http/ApplicationConstants.cs" />
+        <option value="$PROJECT_DIR$/Brreg.UnitTests/Controllers/OrganizationControllerTests.cs" />
       </list>
     </option>
   </component>
@@ -97,8 +109,27 @@
       <option name="presentableId" value="Default" />
       <updated>1605625621532</updated>
       <workItem from="1605625637112" duration="2930000" />
-      <workItem from="1606837230310" duration="591000" />
+      <workItem from="1606837230310" duration="2029000" />
     </task>
+    <task id="LOCAL−00001" summary="Initial">
+      <created>1606838122346</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1606838122346</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Initial">
+      <created>1606838128801</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1606838128801</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Added task">
+      <created>1606838358137</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1606838358137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +142,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -120,6 +163,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Added task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task" />
   </component>
   <component name="WindowStateProjectService">
     <state width="450" height="580" key="DebuggerActiveHint" timestamp="1605628400664">
@@ -206,10 +252,10 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state width="1566" height="364" key="GridCell.Tab.4.right/0.0.1620.1040@0.0.1620.1040" timestamp="1605628452006" />
-    <state x="-3388" y="659" key="Rider.ProjectTemplateDialog.Size" timestamp="1606837516932">
+    <state x="-3388" y="659" key="Rider.ProjectTemplateDialog.Size" timestamp="1606838495216">
       <screen x="-3840" y="470" width="3840" height="1040" />
     </state>
-    <state x="-3388" y="659" key="Rider.ProjectTemplateDialog.Size/0.0.1620.1040/-3840.470.3840.1040@-3840.470.3840.1040" timestamp="1606837516932" />
+    <state x="-3388" y="659" key="Rider.ProjectTemplateDialog.Size/0.0.1620.1040/-3840.470.3840.1040@-3840.470.3840.1040" timestamp="1606838495216" />
     <state x="-3504" y="550" key="SettingsEditor" timestamp="1606837822503">
       <screen x="-3840" y="470" width="3840" height="1040" />
     </state>
@@ -222,24 +268,5 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="385" y="238" key="run.anything.popup/0.0.1620.1040@0.0.1620.1040" timestamp="1605628610068" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Brreg/Controllers/OrgController.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\dev\test\Brreg\Brreg\Controllers\OrgController.cs" initialLine="22">
-            <startOffsets>
-              <option value="673" />
-            </startOffsets>
-            <endOffsets>
-              <option value="685" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
