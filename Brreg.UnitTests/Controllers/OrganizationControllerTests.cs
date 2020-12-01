@@ -13,6 +13,7 @@ namespace Brreg.UnitTests.Controllers
     {
         private AutoMocker _mocker = new AutoMocker();
         
+        [Fact]
         public async Task When_Input_is_valid_Should_call_IBrregHttpClient_once()
         {
             var sut = _mocker.CreateInstance<OrganizationController>();
@@ -23,6 +24,7 @@ namespace Brreg.UnitTests.Controllers
             _mocker.Verify<IBrregHttpClient, Task<OrganizationModel>>(p => p.FetchOrganizationAsync("919300388"), Times.Once);
         }
         
+        [Fact]
         public async Task When_Input_is_valid_Should_return_OkResultObject()
         {
             var sut = _mocker.CreateInstance<OrganizationController>();
@@ -30,6 +32,7 @@ namespace Brreg.UnitTests.Controllers
             Assert.IsType<OkObjectResult>(result);
         }
         
+        [Fact]
         public async Task When_Input_is_valid_Should_return_name_and_orgnumber()
         {
             var sut = _mocker.CreateInstance<OrganizationController>();
@@ -55,6 +58,7 @@ namespace Brreg.UnitTests.Controllers
             Assert.IsType<OkObjectResult>(result);
         }
         
+        [Theory]
         [InlineData("abc")]
         [InlineData("9193003888")]
         [InlineData("91930038")]
