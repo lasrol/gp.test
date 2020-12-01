@@ -29,7 +29,9 @@
         </e>
         <e p="ApplicationConstants.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Bootstrapper.cs" t="Include" />
         <e p="Brreg.Http.csproj" t="IncludeRecursive" />
+        <e p="BrregHttpClient.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="OrganizationModel.cs" t="Include" />
         </e>
